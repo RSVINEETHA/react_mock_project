@@ -1,0 +1,130 @@
+.header {
+  padding: 10px;
+}
+
+.side-header {
+  background-color: blue;
+  height: 100vh;
+  padding: 10px;
+  border-right: 1px solid #dee2e6;
+  margin-top: 20px;
+}
+
+.side-header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-header .nav-link {
+  color: #343a40;
+}
+
+.side-header .nav-link.active-tab {
+  background-color: #e9ecef;
+  color: #343a40;
+}
+
+.page-content {
+  width: 500px;
+  padding: 20px;
+  color: lightblue;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.app-content{
+  color: darkblue;
+  margin-left: 60px ;
+  margin-top: 30px;
+}
+
+.active-tab {
+  background-color: #007bff;
+  color: #fff;
+}
+.background-image {
+  background-image: url('./backgroundimg.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  /* Additional background styles */
+}
+.team-member-card {
+  width:400px;
+  background-color: lightcyan;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.team-member-card.hovered {
+  background-color: lightgray;
+}
+
+.team-member-card.clicked {
+  background-color: lightblue;
+}
+
+.description {
+  margin-top: 10px;
+}
+.container-fluid {
+  height: 100vh;
+  overflow: auto;
+}
+
+.row {
+  min-height: 100%;
+}
+.sign-in-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.sign-in-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sign-in-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-form .form-group {
+  margin-bottom: 20px;
+}
+
+.sign-in-form label {
+  font-weight: bold;
+}
+
+.sign-in-form .form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.sign-in-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sign-in-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
